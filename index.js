@@ -7,7 +7,7 @@ router.use('/auth', apiRoute)
 
 // All other routes should return a 404
 router.route('/*').all((req, res) => {
-  res.status(404).send('404 - Not Found')
+  res.status(404).send('404 - Not Found...')
 })
 
 module.exports = router
